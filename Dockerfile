@@ -3,7 +3,7 @@ FROM debian:latest
 RUN apt-get update &&\
     apt-get install -y \
         sudo time git-core subversion build-essential clang g++ bash make \
-        libssl-dev patch libncurses5 libncurses5-dev zlib1g-dev gawk \
+        libssl-dev patch libncurses5 libncurses5-dev zlib1g-dev libelf-dev gawk \
         flex gettext wget unzip xz-utils python3 python3-distutils-extra \
         python3-setuptools swig rsync curl \
         libsnmp-dev liblzma-dev libpam0g-dev cpio rsync gcc-multilib g++-multilib nano file wget && \
